@@ -1,0 +1,6 @@
+[MASTER]
+ignore=setup.py
+init-hook='import sys; sys.path.append("leave_times")'
+
+[MESSAGES CONTROL]
+disable=E0611,C0412,W0603

@@ -1,0 +1,8 @@
+day_of_the_week,day_of_the_month,is_working_day,leave,arrive,leave_minutes,arrive_minutes,out_minutes
+Monday,1,1,,,,,
+Tuesday,2,1,,,,,
+Wednesday,3,1,,,,,
+Thursday,4,1,,,,,
+Friday,5,1,,,,,
+Saturday,6,0,,,,,
+Sunday,7,0,,,,,
