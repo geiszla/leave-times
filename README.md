@@ -30,7 +30,7 @@ Make sure `python`, `pip` and the `Scripts` directory are in the path and run th
 
 ## Start application
 
-Navigate to the `leave_times` subfolder using command line, then run `python __init__.py`.
+Activate virtual environment (`env\Scripts\activate`), navigate to the `leave_times` subfolder using command line, then run: `python __init__.py`.
 
 ## Project structure
 
