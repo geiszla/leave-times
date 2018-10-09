@@ -4,11 +4,11 @@
 
 This project contains a basic python application for predicting bus leave times with different machine learning models (linear regression, DNN regression).
 
-The project is highly modular, a different model can be used with the same data and training process by inheriting from the `Model` class and creating a new instance of it in `leave_times/__init__.py` (see included models (at [project structure](#project-structure)) for examples).
+The project is highly modular, a different model can be used with the same data and training process by inheriting from the `Model` class and creating a new instance of it in `leave_times/__init__.py` (see [included models](#project-structure) for examples).
 
 ## Requirements
 
-- Python 3 (developed using v3.5.4)
+- Python 3 (developed using `v3.5.4`)
 
 ## Setting up
 
@@ -30,7 +30,7 @@ Make sure `python`, `pip` and the `Scripts` directory are in the path and run th
 
 ## Start application
 
-Activate virtual environment (`env\Scripts\activate`), navigate to the `leave_times` subfolder using command line, then run: `python __init__.py`.
+Activate virtual environment (`env\Scripts\activate`), then run: `python leave_times/__init__.py`.
 
 ## Project structure
 

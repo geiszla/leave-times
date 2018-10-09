@@ -4,25 +4,28 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-absl-py==0.4.1            # via tensorflow
+absl-py==0.5.0            # via tensorflow
 astor==0.7.1              # via tensorflow
 cycler==0.10.0            # via matplotlib
 gast==0.2.0               # via tensorflow
-grpcio==1.14.1            # via tensorflow
+grpcio==1.15.0            # via tensorboard, tensorflow
+h5py==2.8.0               # via keras-applications
+keras-applications==1.0.6  # via tensorflow
+keras-preprocessing==1.0.5  # via tensorflow
 kiwisolver==1.0.1         # via matplotlib
-markdown==2.6.11          # via tensorboard
-matplotlib==2.2.3
-numpy==1.15.1
+markdown==3.0.1           # via tensorboard
+matplotlib==3.0.0
+numpy==1.15.2
 pandas==0.23.4
 protobuf==3.6.1           # via tensorboard, tensorflow
-pyparsing==2.2.0          # via matplotlib
+pyparsing==2.2.2          # via matplotlib
 python-dateutil==2.7.3    # via matplotlib, pandas
-pytz==2018.5              # via matplotlib, pandas
-scikit-learn==0.19.2      # via sklearn
-six==1.11.0               # via absl-py, cycler, grpcio, matplotlib, protobuf, python-dateutil, tensorboard, tensorflow
-sklearn==0.0
-tensorboard==1.9.0        # via tensorflow
-tensorflow==1.9.0
+pytz==2018.5              # via pandas
+scikit-learn==0.20.0
+scipy==1.1.0
+six==1.11.0               # via absl-py, cycler, grpcio, h5py, keras-preprocessing, protobuf, python-dateutil, tensorboard, tensorflow
+tensorboard==1.11.0       # via tensorflow
+tensorflow==1.11.0
 termcolor==1.1.0          # via tensorflow
 werkzeug==0.14.1          # via tensorboard
-wheel==0.31.1             # via tensorboard, tensorflow
+wheel==0.32.1             # via tensorboard, tensorflow
