@@ -4,7 +4,7 @@
 
 This project contains a basic python application for predicting bus leave times with different machine learning models (linear regression, DNN regression).
 
-The project is highly modular, a different model can be used with the same data and training process by inheriting from the `Model` class and creating a new instance of it in `leave_times/__init__.py` (see [included models](#project-structure) as examples).
+The project is highly modular, a different model can be used with the same data and training process by inheriting from the `Model` class and creating a new instance of it in `leave_times/__init__.py` (see included models (at [project structure](#project-structure)) for examples).
 
 ## Requirements
 
@@ -37,5 +37,10 @@ Activate virtual environment (`env\Scripts\activate`), navigate to the `leave_ti
 - Models
   - Linear regression: `leave_times/linear_regression.py`
   - Neural Network: `leave_times/neural_network.py`
-- Training data: `data/log.csv`
-- Test data: `data/log_unlabeled.csv`
+- Data
+  - Training data: `data/log.csv`
+  - Test data: `data/log_unlabeled.csv`
+
+## Credits
+
+This project is based on Google's [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/).
